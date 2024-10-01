@@ -7,10 +7,6 @@ shadcn/ui `npx shadcn@latest init`
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
 pnpm dev
 # or
 bun dev
@@ -21,6 +17,26 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## References
+
+https://ui.shadcn.com/examples/[music](https://ui.shadcn.com/examples/music)  
+
+https://github.com/shadcn-ui/ui/tree/main/apps/www/app/(app)/examples/[music](https://github.com/shadcn-ui/ui/tree/main/apps/www/app/(app)/examples/music)
+
+## Note
+
+tailwind.config.ts
+
+```js
+const config: Config = {
+    darkMode: ["class"],
+    content: [
+    ...
+	"./registry/**/*.{ts,tsx}",
+  ],
+```
+
 
 ## Learn More
 
